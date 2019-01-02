@@ -1,0 +1,31 @@
+{
+  "name": "auto-scaling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/log-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "master": "node src/setup.js && pm2-runtime start master-process.json",
+    "child": "pm2-runtime start child-process.json",
+    "metric": "node src/send-health-data.js",
+    "setup": "node src/setup.js",
+    "flood": "ab -c 1000 -n 10000000 -b 10000 -r localhost:4454/",
+    "stop": "pm2 kill"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "child-process-promise": "^2.2.1",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "pm2": "^2.9.3",
+    "pm2-intercom": "^1.0.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "rethinkdb": "^2.3.3",
+    "rethinkdbdash": "^2.3.31",
+    "uuid": "^3.2.1"
+  }
+}

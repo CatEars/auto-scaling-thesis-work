@@ -1,0 +1,73 @@
+echo "File is: ./blueprints/linear-up-fast-down Date compiled is Thu, 16 Aug 2018 12:02:15 GMT"
+ulimit -n 100000
+echo "The time is:"
+echo `date +"%s"`
+echo "siege --log=siegelog.log -t 90s -c 10 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png"
+siege --log=siegelog.log -t 90s -c 10 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png
+echo "***********************"
+echo "The time is:"
+echo `date +"%s"`
+echo "siege --log=siegelog.log -t 90s -c 10 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png"
+siege --log=siegelog.log -t 90s -c 10 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png
+echo "***********************"
+echo "The time is:"
+echo `date +"%s"`
+echo "siege --log=siegelog.log -t 90s -c 30 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png"
+siege --log=siegelog.log -t 90s -c 30 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png
+echo "***********************"
+echo "The time is:"
+echo `date +"%s"`
+echo "siege --log=siegelog.log -t 90s -c 30 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png"
+siege --log=siegelog.log -t 90s -c 30 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png
+echo "***********************"
+echo "The time is:"
+echo `date +"%s"`
+echo "siege --log=siegelog.log -t 90s -c 50 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png"
+siege --log=siegelog.log -t 90s -c 50 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png
+echo "***********************"
+echo "The time is:"
+echo `date +"%s"`
+echo "siege --log=siegelog.log -t 90s -c 50 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png"
+siege --log=siegelog.log -t 90s -c 50 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png
+echo "***********************"
+echo "The time is:"
+echo `date +"%s"`
+echo "siege --log=siegelog.log -t 90s -c 70 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png"
+siege --log=siegelog.log -t 90s -c 70 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png
+echo "***********************"
+echo "The time is:"
+echo `date +"%s"`
+echo "siege --log=siegelog.log -t 90s -c 70 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png"
+siege --log=siegelog.log -t 90s -c 70 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png
+echo "***********************"
+echo "The time is:"
+echo `date +"%s"`
+echo "siege --log=siegelog.log -t 90s -c 90 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png"
+siege --log=siegelog.log -t 90s -c 90 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png
+echo "***********************"
+echo "The time is:"
+echo `date +"%s"`
+echo "siege --log=siegelog.log -t 90s -c 90 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png"
+siege --log=siegelog.log -t 90s -c 90 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png
+echo "***********************"
+echo "The time is:"
+echo `date +"%s"`
+echo "siege --log=siegelog.log -t 90s -c 110 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png"
+siege --log=siegelog.log -t 90s -c 110 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png
+echo "***********************"
+echo "The time is:"
+echo `date +"%s"`
+echo "siege --log=siegelog.log -t 90s -c 110 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png"
+siege --log=siegelog.log -t 90s -c 110 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png
+echo "***********************"
+echo "The time is:"
+echo `date +"%s"`
+echo "siege --log=siegelog.log -t 90s -c 10 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png"
+siege --log=siegelog.log -t 90s -c 10 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png
+echo "***********************"
+echo "The time is:"
+echo `date +"%s"`
+echo "siege --log=siegelog.log -t 90s -c 10 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png"
+siege --log=siegelog.log -t 90s -c 10 https://xjobb.briteback.com/workload/https://liu.se/mall11/images/logo-sv.png
+echo "Ending time is:"
+echo `date +"%s"`
