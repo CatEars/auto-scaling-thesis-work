@@ -20,7 +20,7 @@
     "body-parser": "^1.18.2",
     "child-process-promise": "^2.2.1",
     "express": "^4.16.2",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.13",
     "pm2": "2.9.3",
     "pm2-intercom": "^1.0.0",
     "request": "^2.83.0",
